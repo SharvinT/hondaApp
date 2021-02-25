@@ -1,0 +1,123 @@
+// variables
+$Menu-icon-color: grey;
+$card-header-background: #202942;
+$item-color: #0a2239;
+$hide-background: #2355fc0f;
+$hide-color: #194dff;
+
+// Nav bar css
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 0px 8px grey;
+  height: 45px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1;
+  .navMenu {
+    color: $Menu-icon-color;
+  }
+  img {
+    width: 50px;
+  }
+  .avatar {
+    margin-right: 20px;
+  }
+}
+
+// Card css
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 0 30px #90909066;
+  border-radius: 6px;
+}
+.cardHeader {
+  border-radius: 6px 6px 0 0;
+  background-color: $card-header-background;
+  color: white;
+  box-shadow: 0 0 30px #90909066;
+  padding: 20px;
+  p {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  span {
+    color: gray;
+    font-size: small;
+  }
+}
+
+.items {
+  padding: 20px 20px 0px 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  img {
+    width: 18px;
+  }
+  p {
+    margin: 0%;
+    margin-left: 20px;
+    color: $item-color;
+    font-weight: bold;
+  }
+}
+.content {
+  padding: 0px 20px 10px 20px;
+  text-align: left;
+  font-size: 12px;
+}
+.hide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $hide-background;
+  color: $hide-color;
+  height: 26px;
+  p {
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+.profile {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileImage {
+  width: 20px;
+}
+.details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: left;
+  h3,
+  p {
+    margin: 0;
+  }
+  p {
+    color: gray;
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+}

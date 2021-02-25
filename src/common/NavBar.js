@@ -2,7 +2,6 @@ import React from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import logo from "../assets/logo.png";
 import Avatar from "@material-ui/core/Avatar";
-import "./Navbar.css";
 
 const NavBar = () => {
   return (
