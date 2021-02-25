@@ -1,0 +1,88 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 0 30px #90909066;
+  border-radius: 6px;
+}
+.cardHeader {
+  border-radius: 6px 6px 0 0;
+  background-color: #202942;
+  color: #fff;
+  box-shadow: 0 0 30px #90909066;
+  padding: 20px;
+}
+.cardHeader > p {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.cardHeader > span {
+  color: gray;
+  font-size: small;
+}
+.items {
+  padding: 20px 20px 0px 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.item > img {
+  width: 18px;
+}
+.item > p {
+  margin: 0%;
+  margin-left: 20px;
+  color: #0a2239;
+  font-weight: bold;
+}
+.content {
+  padding: 0px 20px 10px 20px;
+  text-align: left;
+  font-size: 12px;
+}
+.hide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2355fc0f;
+  color: #194dff;
+  height: 26px;
+}
+.hide > p {
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+.profile {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileImage {
+  width: 20px;
+}
+.details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: left;
+}
+.details > h3,
+p {
+  margin: 0;
+}
+.details > p {
+  color: gray;
+  font-size: 12px;
+}
+.details > h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
