@@ -1,9 +1,18 @@
 // variables
 $Menu-icon-color: grey;
+
 $card-header-background: #202942;
+
 $item-color: #0a2239;
+
 $hide-background: #2355fc0f;
 $hide-color: #194dff;
+
+$form-button-blue-bg: #3054d60f;
+$form-button-blue-color: #3054d6;
+
+$form-button-grey-bg: #f6f9fb80;
+$form-button-grey-color: #0a2239;
 
 // Nav bar css
 
@@ -120,4 +129,152 @@ $hide-color: #194dff;
     font-size: 15px;
     margin-bottom: 3px;
   }
+}
+
+// form styling
+// .formCard {
+//   display: flex;
+//   flex-direction: column;
+//   margin: 20px;
+//   box-shadow: 0 0 30px #90909066;
+//   border-radius: 6px;
+//   padding: 20px;
+//   h2 {
+//     font-size: 50px;
+//     margin: 0;
+//   }
+//   button {
+//     padding: 20px;
+//     width: 100%;
+//     font-size: 16px;
+//     border-radius: 6px;
+//     border-color: rgba(35, 85, 252, 0.3);
+//     background-color: #3054d60f;
+//     color: rgba(35, 85, 252, 0.3);
+//     margin-top: 30px;
+//     font-weight: bold;
+//   }
+// }
+// .form {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin: 0 20px 0 20px;
+//   input {
+//     padding: 20px;
+//     width: 100%;
+//     font-size: 18px;
+//     border-radius: 6px;
+//     border-color: grey;
+//     margin-top: 40px;
+//     font-weight: bold;
+//   }
+// }
+
+// .numLabel {
+//   position: relative;
+//   left: -20%;
+//   bottom: -50px;
+//   background-color: white;
+// }
+// .nameLabel {
+//   position: relative;
+//   left: -30%;
+//   bottom: -50px;
+//   background-color: white;
+// }
+// .buttons {
+//   margin-top: 10px;
+//   .fixed {
+//     align-items: center;
+//     background-color: $form-button-blue-bg;
+//     padding: 10px;
+//     margin-left: 10px;
+//     border-radius: 999px;
+//     border-color: $form-button-blue-color;
+//     color: $form-button-blue-color;
+//   }
+//   .rate {
+//     align-items: center;
+//     background-color: $form-button-grey-bg;
+//     padding: 10px;
+//     margin-left: 10px;
+//     border-radius: 999px;
+//     border-color: rgba(128, 128, 128, 0.541);
+//     color: $form-button-grey-color;
+//   }
+// }
+.formCard {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 0 30px #90909066;
+  border-radius: 6px;
+  padding: 20px;
+  h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  .buttons {
+    margin-top: 10px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  input {
+    padding: 20px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: grey;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+}
+
+.numLabel {
+  position: relative;
+  left: -20%;
+  bottom: -50px;
+  background-color: white;
+}
+.nameLabel {
+  position: relative;
+  left: -30%;
+  bottom: -50px;
+  background-color: white;
+}
+
+.fixed {
+  align-items: center;
+  background-color: #3054d60f;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+  border-color: #3054d6;
+  color: #3054d6;
+}
+.rate {
+  align-items: center;
+  background-color: #f6f9fb80;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+  border-color: rgba(128, 128, 128, 0.541);
+  color: #0a2239;
+}
+
+.formCard > button {
+  padding: 20px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  border-color: rgba(35, 85, 252, 0.3);
+  background-color: #3054d60f;
+  color: rgba(35, 85, 252, 0.3);
+  margin-top: 30px;
+  font-weight: bold;
 }
