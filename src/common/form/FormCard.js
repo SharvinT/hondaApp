@@ -19,8 +19,8 @@ const FormCard = () => {
           <input type="text" className="active" required />
           <input type="text" placeholder="Enter Remarks(optional)" />
         </div>
-        <button type="submit">Bid Now</button>
       </form>
+      <button type="submit">Bid Now</button>
       {/* </form> */}
     </div>
   );
