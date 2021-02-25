@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+hr {
+  position: relative;
+  top: -10px;
+  border: none;
+  height: 4px;
+  background: #3054d6;
+  width: 70px;
+}
+.container {
+  margin-top: 80px;
+}
