@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="navBar">
       <MenuIcon className="navMenu" fontSize="large" />
-      <img className="navLogo" src={logo} alt="" />
+      <img src={logo} alt="" />
       <Avatar
         className="avatar"
         alt=""
